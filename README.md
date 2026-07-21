@@ -19,4 +19,34 @@ terraform providers lock -platform=linux_amd64 -platform=darwin_amd64 -platform=
 
 ## deploy
 
+- Commands must be exectuted by navigating to the `**folder for each example**`
+
+```sh
+cd aws-s3-terraform
+```
+
+- download dependencies
+
+```sh
+terraform init
+```
+
+- review resources before deploying them
+
+```sh
+terraform plan
+```
+
+- carry out the deployment
+
+```sh
+terraform apply
+```
+
+- you should always delete everything that was created after running these tests
+
+```sh
+terraform destroy
+```
+
 ## references
