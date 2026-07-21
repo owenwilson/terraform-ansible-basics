@@ -36,6 +36,8 @@ remains unaffected since this resources was saved for a pending execution.
 terraform plan --out s3.plan
 ```
 
+- When you run the following command, remember that it will deploy the resource directly.
+
 ```sh
 terraform apply s3.plan
 ```
