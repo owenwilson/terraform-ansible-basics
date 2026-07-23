@@ -1,4 +1,6 @@
 .terraform/
+.env
+.envrc
 *.tfstate
 *.tfstate.*
 *.tfplan
