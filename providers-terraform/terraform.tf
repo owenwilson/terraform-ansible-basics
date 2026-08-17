@@ -11,7 +11,5 @@ terraform {
 # configure the aws provider
 provider "aws" {
   //version = "~> 6.0"
-  region     = "us-east-1"
-  access_key = ""
-  secret_key = ""
+  region = "us-east-1"
 }
