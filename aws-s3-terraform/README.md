@@ -8,6 +8,12 @@
 terraform init
 ```
 
+- validate tf files
+
+```sh
+terraform validate
+```
+
 - review resources before deploying them
 
 ```sh
